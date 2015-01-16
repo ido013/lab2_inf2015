@@ -58,7 +58,7 @@ public class Json {
         JSONArray array = new JSONArray();
         array.add(alb);
         nouv.accumulate("album", array);
-        System.out.println(nouv);        
+        System.out.println(nouv.toString(4));        
     }
 
 }
